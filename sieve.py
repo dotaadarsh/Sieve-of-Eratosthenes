@@ -59,7 +59,7 @@ def prime(n):
 
     with col1:
         st.info('Change of the boolean Value over different iterations 👇')
-        with st.expander("Inititl state"):
+        with st.expander("Initial state"):
             df = pd.DataFrame(prime	)
             st.table(df)
         while(p*p <= n) :
