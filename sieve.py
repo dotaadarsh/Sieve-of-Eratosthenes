@@ -109,9 +109,9 @@ _**Auxiliary Space:** O(n)_
 if __name__ == '__main__':
      n = st.slider("Enter the number", 2, 100, value=23)
      with st.expander("sieve of Eratosthenes | pseudocode"):
-         code_c_file = open("programs/prime.txt","r+") 
-         code_c = code_c_file.read()
-         st.code(code_c)
+         pseudo_file = open("programs/prime.txt","r+") 
+         pseudo = pseudo_file.read()
+         st.code(pseudo)
 
      prime(n)
      if choice == 'C':
