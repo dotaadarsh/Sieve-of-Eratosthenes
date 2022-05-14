@@ -107,7 +107,7 @@ _**Auxiliary Space:** O(n)_
 
 
 if __name__ == '__main__':
-     n = st.slider("Enter the number", 2, 100, value=23)
+     n = st.slider("Slide to choose the number", 2, 100, value=23)
      with st.expander("sieve of Eratosthenes | pseudocode"):
          pseudo_file = open("programs/prime.txt","r+") 
          pseudo = pseudo_file.read()
